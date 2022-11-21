@@ -66,7 +66,7 @@ allNavbar.addEventListener("dblclick", removeBootstrap);
  // Fonctionnalité nº6 :
  const viewButton = document.getElementsByClassName('btn-success');
 
- viewButton[0].addEventListener("mouseenter", slowCard);
+ viewButton[0].addEventListener("mouseover", slowCard);
     function slowCard(){
-        
+        viewButton.classList.toggle("editText");
     }
